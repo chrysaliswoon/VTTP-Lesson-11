@@ -36,10 +36,9 @@ public class Day11lectureApplication {
 
 	@Bean
 	public CommonsRequestLoggingFilter log() {
-		CommonRequestLoggingFilter logger = new CommonRequestLoggingFilter();
+		CommonsRequestLoggingFilter logger = new CommonsRequestLoggingFilter();
 		logger.setIncludeClientInfo(true);
 		logger.setIncludeQueryString(true);
 		return logger;
 	}
-
 }
