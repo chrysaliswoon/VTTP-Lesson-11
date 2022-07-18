@@ -8,7 +8,6 @@ import org.springframework.boot.DefaultApplicationArguments;
 import java.util.Collections;
 
 
-
 @SpringBootApplication
 public class Day11workshopApplication {
 

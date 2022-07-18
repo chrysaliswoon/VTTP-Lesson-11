@@ -48,3 +48,6 @@ public class Day11lectureApplication {
 ```
 
 - In your terminal, type ``` mvn spring-boot:run -Dspring-boot.run.arguments="--port=8085" ```
+
+
+### To deploy on Heroku
