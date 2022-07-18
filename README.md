@@ -28,8 +28,7 @@ import java.util.Collections;
 public class Day11lectureApplication {
 
 	public static void main(String[] args) {
-		// SpringApplication.run(Day11lectureApplication.class, args); //? Starts the application
-
+        
 		SpringApplication app = new SpringApplication(Day11lectureApplication.class); //? Creates a new variable called app that starts the Springboot application
 
 		String PORT = "8080"; //? Sets the default port

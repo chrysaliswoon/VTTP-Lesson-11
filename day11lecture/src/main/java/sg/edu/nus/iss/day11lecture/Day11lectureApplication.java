@@ -23,6 +23,7 @@ public class Day11lectureApplication {
 		}
 
 		app.setDefaultProperties(Collections.singletonMap("server.port", PORT));
+		System.out.printf("PORT started on " + PORT);
 		app.run(args);
 
 	}
