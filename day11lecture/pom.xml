@@ -12,7 +12,7 @@
 	<artifactId>day11lecture</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>day11lecture</name>
-	<description>Day 11 VTTP Workshop content </description>
+	<description>Day 11 VTTP Lesson content </description>
 	<properties>
 		<java.version>18</java.version>
 	</properties>
@@ -26,6 +26,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	</dependencies>
 
