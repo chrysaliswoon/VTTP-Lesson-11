@@ -49,5 +49,10 @@ public class Day11lectureApplication {
 
 - In your terminal, type ``` mvn spring-boot:run -Dspring-boot.run.arguments="--port=8085" ```
 
+### Git Merges
+To merge from Master to Develop branch
+1. git checkout develop (switch to the develop branch)
+2. git merge master (merge the codes from the master to the develop branch)
+3. git push -u origin develop (push the changes from the merge)
 
 ### To deploy on Heroku
